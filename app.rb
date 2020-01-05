@@ -16,6 +16,10 @@ get '/about.html' do
     erb :about
 end
 
+get '/blog.html' do
+    erb :blog
+end
+
 get '/solutions.html'do
     erb :solutions
 end
