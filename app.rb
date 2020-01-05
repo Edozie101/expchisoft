@@ -23,6 +23,16 @@ get 'portfolio.html' do
     erb :portfolio
 end
 
+get 'room.html' do
+    erb :room
+end
+
+get 'contact.html' do
+    erb :contact
+end
+
+
+
 
 
 post '/mail' do
@@ -54,3 +64,5 @@ post '/mail' do
 
 
 end
+
+run Sinatra::Application.run!
