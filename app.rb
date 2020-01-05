@@ -6,28 +6,29 @@ get '/' do
   erb :index
 end
 
-get 'index.html' do
+get '/index.html' do
   erb :index
 end
 
 
-get 'about.html' do
+
+get '/about.html' do
     erb :about
 end
 
-get 'solutions.html'do
+get '/solutions.html'do
     erb :solutions
 end
 
-get 'portfolio.html' do
+get '/portfolio.html' do
     erb :portfolio
 end
 
-get 'room.html' do
+get '/room.html' do
     erb :room
 end
 
-get 'contact.html' do
+get '/contact.html' do
     erb :contact
 end
 
