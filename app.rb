@@ -10,14 +10,16 @@ get '/index.html' do
   erb :index
 end
 
-
-
 get '/about.html' do
     erb :about
 end
 
 get '/blog.html' do
     erb :blog
+end
+
+get '/blog-single.html' do
+    erb :'blog-single'
 end
 
 get '/solutions.html'do
@@ -64,9 +66,6 @@ post '/mail' do
     :enable_starttls_auto => true
   }
     })
-
-
-
 
 end
 
